@@ -75,5 +75,37 @@ p{
 .footer{
 	background-color: #5eb9dc;
 	height: 20px;
+}
+.product
+{
+  display: flex;
+  height: 100px;
+  width: 250px;
+  margin-left: 25px;
+  margin-top: 25px;
+  
+}
+.product-iteam
+{
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.product-iteam img{
 
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  height: 250px;
+  width: 385px;
+}
+.product-iteam h2{
+  font-size: 35px;
+  color: brown;
+  text-align: center; 
+}
+.product-iteam p{
+  font-size: 16px;
+  color: dimgrey;
+  text-align: justify;
+  
 }

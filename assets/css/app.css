@@ -1,6 +1,7 @@
 body {
   font-family: 'Open Sans', sans-serif;
   margin: 0;
+background-image: url(./assets/images/9.jpg);
 }
 
 .logo-wrapper {
@@ -32,4 +33,40 @@ body {
 }
 .menu-item :hover {
   background-color: #193c71
+}
+img.logo{
+	width: 250px;
+	margin-left: 25px;
+	margin-top: 100px;
+}
+.header{
+	font-size: 30px;
+	font-weight: 100px;
+	font-family: tahoma;
+	
+}
+
+img.w{
+	width: 200px;
+	height: 170px;
+	margin-top: 100px;
+	float: left;
+	margin-right: 15px;
+}
+img.ram{
+	width: 300px;
+	margin-bottom: 50px;
+	margin-top: 100px;
+}
+
+.wrapper h2{
+	margin-top: 150px;
+}
+p{
+	text-align: justify;
+	font-size: 20px;
+}
+.footer{
+	background-color: #5eb9dc;
+	height: 20px;
 }

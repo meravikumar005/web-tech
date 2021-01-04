@@ -1,76 +1,8 @@
-body {
-  font-family: 'Open Sans', sans-serif;
-  margin: 0;
-}
-
-.logo-wrapper {
-  height: 100px;
-  width: 250px;
-  margin-left: 25px;
-  margin-top: 25px;
-}
-
-.logo-wrapper img {
-  height: 100%;
-  width: 100%;
-}
-
-.menu-wrapper {
-  background-color: #5eb9dc;
-}
-
-.menu {
-  margin: 0;
-  list-style: none;
-  display: inline-block;
-}
-
-.menu-item {
-  display: inline-block;
-  margin: 10px;
-}
-
-.menu-text {
-  text-decoration: none;
-  color: #ffffff;
-  display: block;
-}
-
-.menu-item :hover {
-  background-color: #193c71
-}
-.product
 {
-  display: flex;
-  height: 100px;
-  width: 250px;
-  margin-left: 25px;
-  margin-top: 25px;
-  
-}
-.product-iteam
-{
-  margin-left: 25px;
-  margin-right: 25px;
-}
-.product-iteam img{
-
-  margin-left: auto;
-  margin-right: auto;
-  display: inline-block;
-  height: 250px;
-  width: 385px;
-}
-.product-iteam h2{
-  font-size: 35px;
-  color: brown;
-  text-align: center; 
-}
-.product-iteam p{
-  font-size: 16px;
-  color: dimgrey;
-  text-align: justify;
-  
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family:'poppins',sans-serif;
 }
 .contact
 {
@@ -129,4 +61,9 @@ color: rgb(201, 26, 26);
     align-items: center;
     border-radius: 50%;
     font-size: 22px;
+    
+
+
+
+
 }

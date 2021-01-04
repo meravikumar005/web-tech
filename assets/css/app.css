@@ -1,6 +1,7 @@
 body {
   font-family: 'Open Sans', sans-serif;
   margin: 0;
+background-image: url(./assets/images/9.jpg);
 }
 
 .logo-wrapper {
@@ -9,124 +10,63 @@ body {
   margin-left: 25px;
   margin-top: 25px;
 }
-
 .logo-wrapper img {
   height: 100%;
   width: 100%;
 }
-
 .menu-wrapper {
   background-color: #5eb9dc;
 }
-
 .menu {
   margin: 0;
   list-style: none;
   display: inline-block;
 }
-
 .menu-item {
   display: inline-block;
   margin: 10px;
 }
-
 .menu-text {
   text-decoration: none;
   color: #ffffff;
   display: block;
 }
-
 .menu-item :hover {
   background-color: #193c71
 }
-.product
-{
-  display: flex;
-  height: 100px;
-  width: 250px;
-  margin-left: 25px;
-  margin-top: 25px;
-  
+img.logo{
+	width: 250px;
+	margin-left: 25px;
+	margin-top: 100px;
 }
-.product-iteam
-{
-  margin-left: 25px;
-  margin-right: 25px;
+.header{
+	font-size: 30px;
+	font-weight: 100px;
+	font-family: tahoma;
+	
 }
-.product-iteam img{
 
-  margin-left: auto;
-  margin-right: auto;
-  display: inline-block;
-  height: 250px;
-  width: 385px;
+img.w{
+	width: 200px;
+	height: 170px;
+	margin-top: 100px;
+	float: left;
+	margin-right: 15px;
 }
-.product-iteam h2{
-  font-size: 35px;
-  color: brown;
-  text-align: center; 
+img.ram{
+	width: 300px;
+	margin-bottom: 50px;
+	margin-top: 100px;
 }
-.product-iteam p{
-  font-size: 16px;
-  color: dimgrey;
-  text-align: justify;
-  
+
+.wrapper h2{
+	margin-top: 150px;
 }
-.contact
-{
-    position: relative;
-    min-height: 100vh;
-    padding:50px 100px;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background: url(building.png);
-    background-size: cover;
+p{
+	text-align: justify;
+	font-size: 20px;
 }
-.contact .content
-{
-    max-width: 800px;
-    text-align: center;
-}
-.contact .content h2
-{
-font-size: 36px;
-font-weight: 500;
-color: rgb(201, 26, 26);
-}
-.contact .content p
-{
-    font-weight: 300;
-}
-.container
-{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30px;
-}
-.container .contactInfo
-{
-    width:50%;
-    display:flex;
-    flex-direction: column;
-}
-.container .contactInfo .box
-{
-    position: relative;
-    padding: 20px 0;
-    display: flex;
-}
-.container .contactInfo .box .icon
-{
-    min-width: 60px;
-    height:60px;
-    background: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    font-size: 22px;
+.footer{
+	background-color: #5eb9dc;
+	height: 20px;
 }

@@ -70,3 +70,37 @@ p{
 	background-color: #5eb9dc;
 	height: 20px;
 }
+.slider{
+	overflow: hidden;
+}
+.slider figure{
+	position: relative;
+	width: 500%;
+	margin:0px;
+	left: 20px;
+animation: 20s slider infinite;
+}
+.slider figure img{
+	width: 1000px;
+	float: left;
+}
+@keyframes slider{
+	0%{
+		left: 0;
+	}
+	20%
+	[
+		left:0;
+	]
+	25%{
+		left:-200%;
+		}
+50%{
+	left: -200%;
+}	}
+75%{
+	left: -300%}
+	100%{
+		left: -400%;
+	}
+}

@@ -1,5 +1,5 @@
 .main-content {
-    padding: 10px 10px 10px 25px;
+    padding: 10px 70px 10px 70px;
 }
 .contact-header {
 
@@ -27,10 +27,20 @@
 
 .c-detail {
     display: inline-block;
-    width: 600px;
+    width: 400px;
 }
 
 .contact-form {
-    display: inline-block;
-    width: 600px;
+    /*display: inline-block;*/
+    width: 60px;
 }   
+.text{
+    font-size:25px;
+}
+p{
+    margin: 0px;
+}
+h3{
+    margin: 0px;
+    color: rgb(139, 57, 57);
+}

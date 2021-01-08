@@ -1,0 +1,41 @@
+.s-1 {
+    /* background-color: blue; */
+}
+
+body {
+    overflow-x: hidden;
+}
+.toolbar {
+    background-color: dodgerblue;
+    height: 60px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+.logo-text {
+    color: #ffffff;
+}
+
+.sidebar {
+    background-color: #f3f3f3;
+    height: calc(100vh - 60px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5)
+}
+
+.main-content {
+    margin-top: 20px;
+}
+
+.menu-wrapper {
+    margin-top: 20px;
+}
+
+.nav-item:hover {
+    background-color: dodgerblue;
+}
+
+.nav-link:hover {
+    color: #ffffff;
+}
+.sidebar {
+    height: 230px;
+}
